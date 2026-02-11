@@ -72,19 +72,24 @@ Forecast Example
 ```
 
 Navigate to backend folder
+
  ``` cd backend  ```
 
 Install dependencies
+
 ``` npm install ``` 
 
 Create a .env file
+
 ``` PORT=5000 ```
 ``` OPENWEATHER_API_KEY=your_api_key_here ```
 
 Run Development Server
+
 ``` npm run dev```
 
 Run Production Server
+
 ``` npm start ```
 
 Frontend Setup
@@ -92,12 +97,15 @@ Navigate to frontend folder
 cd weather-frontend
 
 Install dependencies
+
 ``` npm install ```
 
 Create a .env file
+
 ```NEXT_PUBLIC_BACKEND_URL= ```
 
 Run Development Server
+
 ```npm run dev```
 
 
@@ -109,6 +117,7 @@ Weather Provider
 OpenWeatherMap
 
 Website:
+
 ``` https://openweathermap.org/ ```
 
 How to Get an API Key
@@ -144,6 +153,7 @@ client (Vercel)
 
 Example:
 ``` https://your-frontend.vercel.app ```
+
 
 
 
