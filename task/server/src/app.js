@@ -7,7 +7,7 @@ const weatherRoutes = require('./routes/weather.routes')
 const app = express()
 
 app.use(cors({
-    origin:["*"]
+    origin:"*"
 }))
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
@@ -18,5 +18,6 @@ app.use('/api',weatherRoutes);
 app.use((req,res)=>{
     res.status(404).json({message:"Route not found"})
 })
+
 
 module.exports = app
