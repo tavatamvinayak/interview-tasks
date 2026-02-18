@@ -1,0 +1,6 @@
+Generate a 20-question diagnostic covering most topics and concepts. 
+Difficulty split: 20% Easy, 30% Medium, 50% Hard. 
+Importance: 50% A, 30% B, 20% C. 50% Practical/50% Theory.
+Case 5%. Use per-question time from our sheet. 
+Return JSON with topic, concept, importance, difficulty, type, case flag, marks, 
+neg marks, expected time

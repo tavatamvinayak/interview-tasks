@@ -1,0 +1,50 @@
+{
+  "student_id": "S001",
+  "attempts": [
+    {
+      "topic": "Borrowing Costs",
+      "concept": "Definitions",
+      "importance": "A",
+      "difficulty": "M",
+      "type": "Theory",
+      "case_based": false,
+      "correct": false,
+      "marks": 2,
+      "neg_marks": 0.5,
+      "expected_time_sec": 90,
+      "time_spent_sec": 130,
+      "marked_review": true,
+      "revisits": 1
+    },
+    {
+      "topic": "Borrowing Costs",
+      "concept": "Capitalisation",
+      "importance": "A",
+      "difficulty": "H",
+      "type": "Practical",
+      "case_based": true,
+      "correct": true,
+      "marks": 2,
+      "neg_marks": 0.5,
+      "expected_time_sec": 150,
+      "time_spent_sec": 140,
+      "marked_review": false,
+      "revisits": 1
+    },
+    {
+      "topic": "Exchange Differences",
+      "concept": "Treatment",
+      "importance": "B",
+      "difficulty": "E",
+      "type": "Theory",
+      "case_based": false,
+      "correct": true,
+      "marks": 1,
+      "neg_marks": 0.25,
+      "expected_time_sec": 60,
+      "time_spent_sec": 50,
+      "marked_review": false,
+      "revisits": 0
+    }
+  ]
+}
